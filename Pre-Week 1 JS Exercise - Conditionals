@@ -64,6 +64,8 @@ function exercise1(num1) {
   // ------------------------------------------
   return answer1;
 }
+console.log(exercise1(8));
+console.log(exercise1(16));
 
 
 // EXERCISE 2.
@@ -91,6 +93,9 @@ function exercise2(num2) {
   // --------------------------------------------
   return answer2;
 }
+console.log(exercise2(8));
+console.log(exercise2(21));
+
 
 
 // EXERCISE 3.
@@ -119,6 +124,10 @@ function exercise3(num3) {
   // --------------------------------------------
   return answer3;
 }
+console.log(exercise3(8));
+console.log(exercise3(-8));
+console.log(exercise3(0));
+
 
 
 // EXERCISE 4.
@@ -142,6 +151,9 @@ function exercise4(varA, varB) {
   // --------------------------------------------
   return answer4;
 }
+console.log(exercise4(8, 8));
+console.log(exercise4("two", "two"));
+
 
 
 // EXERCISE 5.
@@ -155,6 +167,7 @@ if both ojects are exactly equal in the same instance but because arrays have mu
 instances the condition does cannot check each instances so it defaults to the 
 else{differ} condition. The same goes for NaN as the condition has nothing to
 check against.
+
 
 
 // EXERCISE 6.
@@ -177,6 +190,12 @@ function exercise6(varA, varB, varC) {
   // --------------------------------------------
   return answer6;
 }
+console.log(exercise6(2,2,3));
+console.log(exercise6("two","two",3));
+console.log(exercise6("three","three",3));
+console.log(exercise6("3,3,3));
+
+
 
 // EXERCISE 7.
 // Use a switch conditional statement with case clauses such that if `num7` is
@@ -218,6 +237,10 @@ function exercise7(num7) {
   // --------------------------------------------
   return answer7;
 }
+console.log(exercise7(7))
+console.log(exercise7(7))
+
+
 
 // EXERCISE 8.
 // Using any conditional assign the value of true to answer8 if:
@@ -239,6 +262,10 @@ function exercise8(amount1, amount2, minimum, maximum) {
   // --------------------------------------------
   return answer8;
 }
+console.log(exercise8(2,1,1,9))
+console.log(exercise8(2,2,2,9))
+
+
 
 // EXERCISE 9.
 // In this exercise, if `item` is a number, follow the rules given in Exercise 7
@@ -274,6 +301,10 @@ function exercise9(item) {
   // --------------------------------------------
   return answer9;
 }
+console.log(exercise9("Seven"));
+console.log(exercise9(7));
+console.log(exercise9(True));
+
 
 
 // EXERCISE 10.
@@ -305,10 +336,18 @@ function exercise10(num10) {
   // --------------------------------------------
   return answer10;
 }
+console.log(exercise10(30));
+console.log(exercise10(20));
+console.log(exercise10(18));
+
+
 
 // Congrats, you made it to the end! You rock!
 // Did you find this easy or hard? If you used references, which ones helped you?
 // Please answer in a comment below.
 //
+// I found Exercise 9 was hard as I was trying to make an if/if else loop for the function
+// but using switches is better. I haven't used switches that often so I had to
+// refer back to freecodecamp to look at how it's set up.
 
 // Email your file to us or commit your file to GitHub and email us a link.
