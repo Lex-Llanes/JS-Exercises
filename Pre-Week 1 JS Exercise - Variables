@@ -136,6 +136,9 @@ const myAnswerForExercise22 = "true";
 // Did you find this easy or hard? If you used references, which ones helped you?
 // Please answer in a comment below.
 //
+// Exercises 21 and 22 were tricky and I had to reference from Stackoverflow
+// in order to solve these problems. Javascript reads from left to right
+// so although 2 < 1 = false the next one 1 < 3 = true so JS will return true.
 
 // Email your file to the course staff,
 // or commit your file to GitHub and email us a link.
